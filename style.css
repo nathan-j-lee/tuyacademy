@@ -1,0 +1,65 @@
+.front-page {
+    color: black;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.title {
+    font-size: 48px;
+}
+
+.desc {
+    padding-left: 300px;
+    padding-right: 300px;
+    font-size: 30px;
+}
+
+.banner {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
+
+.topbar {
+    display: flex;
+    justify-content: space-between;
+}
+.navi {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 100px;
+}
+.navi-item {
+    padding-left: 20px;
+    font-size: 22px;
+    align-self: center;
+}
+
+.logo {
+    width: 5%;
+
+}
+
+.list {
+    text-align: left;
+    padding-left: 200px;
+    font-size: 18px;
+    list-style-position: inside;
+    padding-left: 250px;
+    line-height: 1.6;
+}
+
+.list.header {
+    font-size: 36px;
+}
+
+.img-director {
+    float: right;
+    margin-right: 1500px;
+
+}
+
+.director {
+
+}
