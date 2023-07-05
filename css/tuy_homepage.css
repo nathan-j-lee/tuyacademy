@@ -1,0 +1,37 @@
+.description {
+    padding: 20px;
+    padding-left: 130px;
+    padding-right: 130px;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.two_columns {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: flex-start;
+    padding: 20px;
+}
+
+.left_column {
+    padding-right: 15px;
+    font-size: 1.2em;
+}
+
+.right_column {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1.2em;
+}
+
+.right_left {
+    flex: 2 1 0;
+    padding-right: 10px;
+}
+
+.right_right {
+    flex: 1 1 0;
+    padding-top: 10px;
+    padding-left: 10px;
+}
