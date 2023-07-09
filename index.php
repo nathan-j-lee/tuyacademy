@@ -13,7 +13,7 @@
 			<h2>Our Services:</h2>
 			<ul>
 				<li>Pick up from school</li>
-				<li>Open until 7:00 PM </li>
+				<li>Open until 6:30 PM </li>
 				<li>Classes divided by grade (K-8)</li>
 				<li>Complete homework helper</li>
 				<li>Reading, writing, math enrichment classes</li>
