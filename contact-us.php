@@ -6,7 +6,7 @@
 <div class="two_columns">
     <div class="info">
         <p id="description">Have a question? Have a suggestion? Love what we're doing? 
-            Feel free to give us a call, send us Starbucks gift cards for the teachers, 
+            Feel free to give us a call 
             or use the contact form to contact us! We love hearing from you!</p>
         <div class="location">
             <h2>Location</h2>
@@ -19,8 +19,7 @@
         <div class="telephone">
             <h2>Phone</h2>
             <div class="addressphone">
-                <div>310.371.0417 (Office)</div>
-                <div>310.465.9225 (Mobile)</div>
+                <div>310.465.9225 (Cell)</div>
             </div>
         </div>
     </div>
