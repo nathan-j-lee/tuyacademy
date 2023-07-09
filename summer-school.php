@@ -12,13 +12,9 @@
                     <h2>Field Trips</h2>
                     <ul>
                         <li>Beach</li>
-                        <li>Bowling</li>
-                        <li>Crab Fishing</li>
                         <li>Seaside Lagoon</li>
                         <li>Ice Skating</li>
-                        <li>Laser Tag</li>
-                        <li>Pump It Up!</li>
-                        <li>Many more!</li>
+                        <li>Raging Waters</li>
                     </ul>
                 </div>
             </div>
@@ -28,13 +24,12 @@
                 <div class="fr_second_column">
                     <h2>Activities</h2>
                     <ul>
-                        <li>Basketball</li>
-                        <li>Dodgeball</li>
-                        <li>Football</li>
-                        <li>Kickball</li>
-                        <li>Soccer</li>
-                        <li>Capture the Flag</li>
+                        <li>Sports</li>
                         <li>Carnivals</li>
+                        <li>Treasure Hunts</li>
+                        <li>Arts and Crafts</li>
+                        <li>Cooking and Baking</li>
+                        <li>Water Day</li>
                     </ul>
                 </div>
             </div>
@@ -46,15 +41,13 @@
                 <div class="daily_left">
                     <h2>Daily Schedule</h2>
                     <ul class="no_styles">
-                        <li>7:30AM - 9:30AM Drop Off Time</li>
+                        <li>8:00AM TUY Open</li>
                         <li>9:30AM - 10:15AM English</li>
-                        <li>10:15AM - 11:15AM Math</li>
-                        <li>11:15AM - 12:15PM Writing</li>
-                        <li>12:15PM - 1:15PM Lunch (Provided)</li>
-                        <li>1:15PM - 2:00PM Reading/Journal Writing</li>
-                        <li>2:00PM - 4:00PM Sports, Arts & Crafts, Field Trips, Activities</li>
-                        <li>4:00PM - 4:30PM Snack</li>
-                        <li>4:30PM - 7:00PM Free Time/Parent Pickup</li>
+                        <li>10:15AM - 12:15AM Class</li>
+                        <li>12:15PM - 1:00PM Lunch (Provided)</li>
+                        <li>1:00PM - 2:00PM Reading/Journal Writing</li>
+                        <li>2:00PM - 4:00PM Activities/Playground</li>
+                        <li>4:30PM - 7:00PM Free Time and Closing</li>
                     </ul>
                 </div>
             </div>
