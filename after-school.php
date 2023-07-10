@@ -30,7 +30,7 @@
                     <li>3:40-5:00 Homework, TUY Packet, Journaling</li>
                     <li>5:00-5:15 Break Time</li>
                     <li>5:15-6:00 Reading, Writing, Math</li>
-                    <li>6:00-7:00 Free Time</li>
+                    <li>6:00-6:30 Free Time</li>
                 </ul>
             </div>
         </div>
@@ -43,7 +43,7 @@
                     <li>3:40-5:00 Homework, TUY Packet, Journaling</li>
                     <li>5:00-5:15 Break Time</li>
                     <li>5:15-6:00 Reading, Writing, Math</li>
-                    <li>6:00-7:00 Free Time</li>
+                    <li>6:00-6:30 Free Time</li>
                 </ul>
             </div>
         </div>
