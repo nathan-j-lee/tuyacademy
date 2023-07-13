@@ -1,6 +1,9 @@
 .topnav {
     background-color: white;
     overflow: hidden;
+    justify-content: left;
+    display: flex;
+    height: auto;
 }
 
 * {
@@ -13,19 +16,21 @@ body {
     background: rgb(255, 245, 221);
 }
 
-li {
+li.navi {
     float: left;
     list-style-type: none;
 }
 
 .topnav a {
     display: block;
-    padding: 34px;
+    padding: 36px;
     text-decoration: none;
     color:rgb(4, 53, 53);
     font-weight: bold;
     text-align: center;
-    font-size: 28px;
+    font-size: 22px;
+    max-width: 170px;
+    margin: 0 15px;
 }
 
 .topnav a:hover {
@@ -34,8 +39,9 @@ li {
 }
 
 .logo {
-    width: 100px;
-    height: auto;
+    max-width: 100px;
+    max-height: 100px;
     float: left;
 }
+
 
