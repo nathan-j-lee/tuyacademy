@@ -1,37 +1,22 @@
-.description {
-    padding: 20px;
-    padding-left: 130px;
-    padding-right: 130px;
-    font-size: 1.5em;
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.container{
+    width: auto;
+    margin: 0 auto;
     text-align: center;
 }
 
-.two_columns {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    align-content: flex-start;
-    padding: 20px;
+.banner.image {
+    width: clamp(200px, 50%, 800px);
+    height: auto;
+    margin-top: 25px;
 }
 
-.left_column {
-    padding-right: 15px;
-    font-size: 1.2em;
-}
-
-.right_column {
-    display: flex;
-    justify-content: space-evenly;
-    font-size: 1.2em;
-}
-
-.right_left {
-    flex: 2 1 0;
-    padding-right: 10px;
-}
-
-.right_right {
-    flex: 1 1 0;
-    padding-top: 10px;
-    padding-left: 10px;
+.title {
+    font-size: 48px;
+    color: rgb(4, 53, 53);
 }
