@@ -16,21 +16,16 @@ body {
     background: rgb(255, 245, 221);
 }
 
-li.navi {
-    float: left;
-    list-style-type: none;
-}
-
 .topnav a {
-    display: block;
-    padding: 36px;
+    padding: 35px;
+    flex: 0 1 auto;
     text-decoration: none;
     color:rgb(4, 53, 53);
     font-weight: bold;
     text-align: center;
-    font-size: 22px;
+    font-size: 1.3em;
     max-width: 170px;
-    margin: 0 15px;
+    margin: auto 15px;
 }
 
 .topnav a:hover {
@@ -41,7 +36,6 @@ li.navi {
 .logo {
     max-width: 100px;
     max-height: 100px;
-    float: left;
 }
 
 
