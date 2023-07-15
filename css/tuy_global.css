@@ -1,14 +1,20 @@
+/* CSS page with horizontal navigation bar code */
 .topnav {
+    padding: 12px;
+    border-bottom: 1px dotted rgb(223, 223, 223);
     background-color: white;
-    overflow: hidden;
-    justify-content: left;
+}
+
+ul {
     display: flex;
-    height: auto;
+    gap: 30px;
+    list-style-type: none;
+    align-items: center;
+    padding: 0px;
+    margin: 0;
 }
 
 * {
-    margin: 0;
-    padding: 0;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
@@ -17,25 +23,24 @@ body {
 }
 
 .topnav a {
-    padding: 35px;
-    flex: 0 1 auto;
+    flex: 0 0 auto;
     text-decoration: none;
     color:rgb(4, 53, 53);
     font-weight: bold;
-    text-align: center;
-    font-size: 1.3em;
-    max-width: 170px;
-    margin: auto 15px;
+    font-size: 1.1em;
+    margin: 0;
+    padding: 5px;
+    flex-wrap: nowrap;
+    width: 120px;
+    height: 24px;
 }
 
-.topnav a:hover {
-    background-color: rgb(4, 53, 53);
-    color: rgb(255, 245, 221);
+li.logo {
+    margin-right: auto;
 }
-
-.logo {
-    max-width: 100px;
-    max-height: 100px;
+.image {
+    max-width: 75px;
+    max-height: 75px;
 }
 
 

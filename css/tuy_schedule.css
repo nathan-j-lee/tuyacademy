@@ -12,15 +12,21 @@
 
 #summer-school-container {
     flex: auto;
-    margin-right: 10%;
+    margin-right: 5%;
+    margin-left: 25%;
 }
 
 .schedule-container {
     display: flex;
     justify-content: center;
-    margin-top: 200px;
+    margin-top: 15px;
 }
 
+.banner.image {
+    width: clamp(200px, 50%, 800px);
+    height: auto;
+    margin-top: 25px;
+}
 
 ul {
     font-size: 1.5em;
