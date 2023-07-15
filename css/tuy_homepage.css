@@ -11,8 +11,8 @@
     text-align: center;
 }
 
-.banner.image {
-    width: clamp(200px, 50%, 800px);
+.banner {
+    width: clamp(200px, 75%, 800px);
     height: auto;
     margin-top: 25px;
 }
@@ -39,8 +39,14 @@
     max-width: 1000px;
     margin: 15px auto;
     font-size: 20px;
+    line-height: 30px;
 }
 #service-header {
     font-size: 30px;
     color: rgb(4, 53, 53);
+}
+
+ul.service-list {
+    list-style-type: disc;
+    display: block;
 }

@@ -5,7 +5,7 @@
     background-color: white;
 }
 
-ul {
+.topnav ul {
     display: flex;
     gap: 30px;
     list-style-type: none;
@@ -16,10 +16,13 @@ ul {
 
 * {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 0px;
+    margin: 0;
 }
 
 body {
     background: rgb(255, 245, 221);
+
 }
 
 .topnav a {

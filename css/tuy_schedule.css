@@ -28,7 +28,7 @@
     margin-top: 25px;
 }
 
-ul {
+ul.schedule {
     font-size: 1.5em;
     text-align-last: left;
     list-style-type: none;
