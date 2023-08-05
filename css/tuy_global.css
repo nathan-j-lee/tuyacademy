@@ -12,6 +12,7 @@
     align-items: center;
     padding: 0px;
     margin: 0;
+    margin-right: 400px;
 }
 
 * {
@@ -40,6 +41,7 @@ body {
 
 li.logo {
     margin-right: auto;
+    margin-left: 250px;
 }
 .image {
     max-width: 75px;

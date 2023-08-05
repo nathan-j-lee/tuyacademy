@@ -13,19 +13,28 @@
 
 .banner.container {
     background: rgba(95, 6, 6, 0.801);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
+
 
 .banner-image {
     width: clamp(150px, 75%, 600px);
     height: auto;
-    margin: 15px 0;
+    margin: 15px;
+    border-radius: 8px;
 }
 
 .title {
     font-size: 48px;
-    color: rgb(4, 53, 53);
+    color: rgb(0, 255, 255);
     max-width: 1000px;
-    margin: 10px auto;
+}
+
+.title.container {
+    max-width: 500px;
+    margin: 0;
 }
 
 .summary.container {
@@ -36,6 +45,7 @@
 .summary.paragraph {
     text-align: left;
     font-size: 24px;
+    color:rgb(255, 255, 255);
 }
 
 .services.container {
@@ -56,28 +66,40 @@ ul.service-list {
 }
 
 /* Social media tags and logos */
+
+.social-media-section {
+    width: auto;
+    height: 350px;
+    background-color: rgb(255, 255, 178);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .social-media-logo {
     max-width: 50px;
 }
 
 #social-media-links a {
     text-decoration: none;
-    color:rgb(4, 53, 53);
+    color:rgb(0, 255, 255);
     font-size: 18px;
 }
 
 .social-media-container {
     display: flex;
-    margin-top: 25px;
-    background-color: rgb(255, 255, 178);
-    align-self: flex-end;
+    background-color: rgba(94, 14, 14, 0.854);
     justify-content: center;
+    padding: 105px 200px;
+    border-radius: 8px;
 }
+
 
 .social-media.title {
     font-size: 25px;
     text-align: center;
     margin: 10px 25px;
+    color: rgb(0, 255, 255);
 }
 
 #social-media-links {
