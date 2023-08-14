@@ -1,5 +1,30 @@
-.banner {
-    width: clamp(200px, 75%, 800px);
+.banner img {
+    width: 500px;
     height: auto;
-    margin-top: 25px;
+    border-radius: 8px;
+    align-self: center;
+}
+
+* {
+    border: solid 1px gray;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgba(0, 119, 255, 0.382);
+}
+
+.services {
+    align-self: center;
+}
+
+.services .list-title {
+    font-size: 36px;
+    color: rgb(4, 26, 53);
+}
+
+.services .list {
+    font-size: 18px;
+    color: rgb(4, 26, 53);
 }
