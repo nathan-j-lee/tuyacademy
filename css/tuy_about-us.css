@@ -5,10 +5,6 @@ img {
     align-self: center;
 }
 
-* {
-    border: solid 1px gray;
-}
-
 .header-container {
     display: flex;
     justify-content: space-evenly;
@@ -44,4 +40,10 @@ img {
 
 .contact-info-container {
     display: flex;
+    justify-content: space-evenly;
+    padding: 30px 0;
+}
+
+#owner-image {
+    width: 200px;
 }
