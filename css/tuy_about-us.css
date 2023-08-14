@@ -22,12 +22,17 @@ img {
 
 .list-title {
     font-size: 36px;
-    color: rgb(4, 26, 53);
+    color: rgb(103, 9, 9);
 }
 
 .services .list {
     font-size: 18px;
-    color: rgb(4, 26, 53);
+    color: rgb(13, 16, 20);
+    margin-left: 30px;
+}
+
+.services .list-subtitle {
+    font-size: 24px;
 }
 
 .summer-container {
@@ -35,4 +40,8 @@ img {
     justify-content: space-evenly;
     background-color: rgba(103, 9, 9, 0.382);
     padding: 30px 0;
+}
+
+.contact-info-container {
+    display: flex;
 }
