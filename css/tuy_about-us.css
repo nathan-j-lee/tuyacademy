@@ -1,0 +1,49 @@
+img {
+    width: 500px;
+    height: auto;
+    border-radius: 8px;
+    align-self: center;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgba(0, 119, 255, 0.382);
+    padding: 30px 0;
+}
+
+.services {
+    align-self: center;
+}
+
+.list-title {
+    font-size: 36px;
+    color: rgb(103, 9, 9);
+}
+
+.services .list {
+    font-size: 18px;
+    color: rgb(13, 16, 20);
+    margin-left: 30px;
+}
+
+.services .list-subtitle {
+    font-size: 24px;
+}
+
+.summer-container {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgba(103, 9, 9, 0.382);
+    padding: 30px 0;
+}
+
+.contact-info-container {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px 0;
+}
+
+#owner-image {
+    width: 200px;
+}

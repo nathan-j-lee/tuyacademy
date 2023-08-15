@@ -1,0 +1,12 @@
+.image-gallery img{
+    max-width: 400px;
+    border: 2px solid lightgray;
+    border-radius: 12px;
+    flex: 0 1 0;
+    height: auto;
+}
+
+.image-gallery {
+    display: flex;
+    justify-content: center;
+}

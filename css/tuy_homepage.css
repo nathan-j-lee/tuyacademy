@@ -1,37 +1,152 @@
-.description {
-    padding: 20px;
-    padding-left: 130px;
-    padding-right: 130px;
-    font-size: 1.5em;
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /*border: 1px solid gray; */
+}
+
+.container {
+    width: auto;
+    margin: 0 auto;
     text-align: center;
 }
 
-.two_columns {
+body {
+    background-color: rgba(128, 33, 33, 0.759);
+}
+
+.banner.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+.banner-image {
+    width: clamp(150px, 75%, 600px);
+    height: auto;
+    margin: 15px;
+    border-radius: 8px;
+}
+
+.title {
+    font-size: 48px;
+    color: rgb(0, 255, 255);
+    max-width: 1000px;
+}
+
+.title.container {
+    max-width: 500px;
+    margin: 0;
+}
+
+.summary.container {
+    margin: 0 auto;
+    max-width: 1000px;
+
+}
+
+.summary.paragraph {
+    text-align: left;
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+}
+
+.services.container {
+    text-align: left;
+    max-width: 1000px;
+    margin: 15px auto;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+#service-header {
+    font-size: 30px;
+    color: rgb(4, 53, 53);
+}
+
+ul.service-list {
+    list-style-type: disc;
+    display: block;
+}
+
+/* Social media tags and logos */
+
+.social-media-section {
+    width: auto;
+    height: 350px;
+    background-color: rgb(255, 255, 178);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-media-logo {
+    max-width: 50px;
+    margin-right: 4px;
+}
+
+#social-media-links a {
+    text-decoration: none;
+    color: rgb(0, 255, 255);
+    font-size: 18px;
+}
+
+.social-media-container {
+    display: flex;
+    background-color: rgba(94, 14, 14, 0.854);
+    justify-content: center;
+    padding: 105px 200px;
+    border-radius: 8px;
+}
+
+
+.social-media.title {
+    font-size: 25px;
+    text-align: center;
+    margin: 10px 25px;
+    color: rgb(0, 255, 255);
+}
+
+#social-media-links {
+    display: flex;
+    justify-content: space-around;
+}
+
+#facebook,
+#instagram {
+    display: flex;
+    align-items: center;
+    margin: 0 10px;
+}
+
+/**
+ * Contact information
+ */
+
+.footer {
     display: flex;
     justify-content: center;
-    align-items: flex-start;
-    align-content: flex-start;
-    padding: 20px;
+    padding: 100px;
 }
 
-.left_column {
-    padding-right: 15px;
-    font-size: 1.2em;
-}
-
-.right_column {
+.footer-container {
     display: flex;
-    justify-content: space-evenly;
-    font-size: 1.2em;
+    justify-content: space-around;
+    background-color: rgba(0, 0, 0, 0.59);
+    width: 700px;
+    height: 100px;
+    align-items: center;
+    border-radius: 10px;
 }
 
-.right_left {
-    flex: 2 1 0;
-    padding-right: 10px;
+#phone-container h3 {
+    color: rgb(255, 255, 178);
+    font-size: min(1.5vw, 20px);
+    padding: 2px 0;
 }
-
-.right_right {
-    flex: 1 1 0;
-    padding-top: 10px;
-    padding-left: 10px;
+#email-container h3 {
+    color: rgb(255, 255, 178);
+    font-size: min(1.5vw, 20px);
+    padding: 2px 0;
 }
