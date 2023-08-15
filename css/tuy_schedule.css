@@ -20,15 +20,31 @@
 }
 
 img {
-    width: 450px;
-    height: auto;
+    max-width: 250px;
+    max-height: 300px;
+    flex: 0 1 100px;
+    align-self: center;
+    border-radius: 10px;
+    border: 2px solid lightgray;
 }
 
 .schedule ul {
     font-size: 24px;
+    font-size: 1.2vw;
     margin-left: 30px;
+}
+
+.schedule {
+    flex: 0 1 auto;
 }
 
 .container-title {
     align-self: center;
+    font-size: 36px;
+    font-size: 1.7vw;
+}
+
+.schedule-title {
+    font-size: 36px;
+    font-size: 1.7vw;
 }

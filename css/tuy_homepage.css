@@ -5,14 +5,17 @@
     /*border: 1px solid gray; */
 }
 
-.container{
+.container {
     width: auto;
     margin: 0 auto;
     text-align: center;
 }
 
+body {
+    background-color: rgba(128, 33, 33, 0.759);
+}
+
 .banner.container {
-    background: rgba(95, 6, 6, 0.801);
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -42,10 +45,11 @@
     max-width: 1000px;
 
 }
+
 .summary.paragraph {
     text-align: left;
     font-size: 24px;
-    color:rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
 }
 
 .services.container {
@@ -55,6 +59,7 @@
     font-size: 20px;
     line-height: 30px;
 }
+
 #service-header {
     font-size: 30px;
     color: rgb(4, 53, 53);
@@ -78,11 +83,12 @@ ul.service-list {
 
 .social-media-logo {
     max-width: 50px;
+    margin-right: 4px;
 }
 
 #social-media-links a {
     text-decoration: none;
-    color:rgb(0, 255, 255);
+    color: rgb(0, 255, 255);
     font-size: 18px;
 }
 
@@ -107,8 +113,40 @@ ul.service-list {
     justify-content: space-around;
 }
 
-#facebook, #instagram {
+#facebook,
+#instagram {
     display: flex;
     align-items: center;
     margin: 0 10px;
+}
+
+/**
+ * Contact information
+ */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(0, 0, 0, 0.59);
+    width: 700px;
+    height: 100px;
+    align-items: center;
+    border-radius: 10px;
+}
+
+#phone-container h3 {
+    color: rgb(255, 255, 178);
+    font-size: min(1.5vw, 20px);
+    padding: 2px 0;
+}
+#email-container h3 {
+    color: rgb(255, 255, 178);
+    font-size: min(1.5vw, 20px);
+    padding: 2px 0;
 }
