@@ -1,12 +1,22 @@
 .image-gallery img{
-    max-width: 400px;
+    height: 20vw;
     border: 2px solid lightgray;
     border-radius: 12px;
-    flex: 0 1 0;
-    height: auto;
 }
 
 .image-gallery {
     display: flex;
     justify-content: center;
+}
+
+.gallery-container {
+    background-color: bisque;
+    padding: 100px;
+}
+
+@media all and (max-width: 200px) {
+    .gallery-container {
+        background-color: bisque;
+        padding: 0px;
+    }
 }
