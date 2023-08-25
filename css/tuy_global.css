@@ -46,7 +46,12 @@
 }
 
 .navbar-logo {
-    height: 5vw;
+    height: 3vw;
+}
+@media all and (max-width: 1500px) {
+    .navbar-logo {
+        height: 5vw;
+    }
 }
 
 @media all and (max-width: 250px) {
