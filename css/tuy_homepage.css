@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    /*border: 1px solid gray; */
+    border: 1px solid gray;
 }
 
 .container {
@@ -23,16 +23,15 @@ body {
 
 
 .banner-image {
-    width: clamp(150px, 75%, 600px);
+    max-width: 40%;
     height: auto;
     margin: 15px;
     border-radius: 8px;
 }
 
 .title {
-    font-size: 48px;
+    font-size: 2.5vw;
     color: rgb(0, 255, 255);
-    max-width: 1000px;
 }
 
 .title.container {
@@ -48,8 +47,14 @@ body {
 
 .summary.paragraph {
     text-align: left;
-    font-size: 24px;
+    font-size: 1.5vw;
     color: rgb(255, 255, 255);
+}
+
+@media all and (max-width: 915px) {
+    .summary.paragraph {
+        font-size: 1.3vw;
+    }
 }
 
 .services.container {
@@ -82,27 +87,19 @@ ul.service-list {
 }
 
 .social-media-logo {
-    max-width: 50px;
+    max-width: 6.0vw;
     margin-right: 4px;
 }
 
 #social-media-links a {
     text-decoration: none;
     color: rgb(0, 255, 255);
-    font-size: 18px;
-}
-
-.social-media-container {
-    display: flex;
-    background-color: rgba(94, 14, 14, 0.854);
-    justify-content: center;
-    padding: 105px 200px;
-    border-radius: 8px;
+    font-size: 1.2vw;
 }
 
 
 .social-media.title {
-    font-size: 25px;
+    font-size: 1.7vw;
     text-align: center;
     margin: 10px 25px;
     color: rgb(0, 255, 255);

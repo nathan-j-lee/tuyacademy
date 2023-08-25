@@ -39,8 +39,20 @@
     padding: 20px;
 }
 
+@media all and (max-width: 300px) {
+    .nav-list .list-item{
+        padding: 5px;
+    }
+}
+
 .navbar-logo {
-    max-height: 65px;
+    height: 5vw;
+}
+
+@media all and (max-width: 250px) {
+    .navbar-logo {
+        display: none;
+    }
 }
 
 @media all and (max-width: 915px) {
