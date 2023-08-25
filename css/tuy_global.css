@@ -48,7 +48,7 @@
 .navbar-logo {
     height: 3vw;
 }
-@media all and (max-width: 1500px) {
+@media all and (max-width: 100px) {
     .navbar-logo {
         height: 5vw;
     }
