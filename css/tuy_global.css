@@ -1,4 +1,6 @@
 /* CSS page with horizontal navigation bar code */
+
+/*
 .topnav {
     padding: 12px;
     border-bottom: 1px dotted rgb(223, 223, 223);
@@ -6,7 +8,71 @@
     display: flex;
     justify-content: space-between;
 }
+*/
 
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 0px;
+    margin: 0;
+}
+
+.navbar {
+    background-color: rgb(244, 246, 208);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1vw;
+}
+
+.navbar a {
+    text-decoration: none;
+    color:rgb(4, 53, 53);
+}
+
+.nav-list, .nav-list a {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.nav-list .list-item{
+    display: inline-block;
+    padding: 20px;
+}
+
+@media all and (max-width: 300px) {
+    .nav-list .list-item{
+        padding: 5px;
+    }
+}
+
+.navbar-logo {
+    height: 3vw;
+}
+@media all and (max-width: 100px) {
+    .navbar-logo {
+        height: 5vw;
+    }
+}
+
+@media all and (max-width: 250px) {
+    .navbar-logo {
+        display: none;
+    }
+}
+
+@media all and (max-width: 915px) {
+
+    .navbar {
+        background-color: rgb(244, 246, 208);
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        font-size: 2vw;
+    }
+
+}
+
+/*
 .topnav ul {
     display: flex;
     gap: 30px;
@@ -15,6 +81,7 @@
     padding: 0px;
     margin: 0;
 }
+
 
 * {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -50,4 +117,5 @@ li.logo {
     max-height: 75px;
 }
 
+/*
 

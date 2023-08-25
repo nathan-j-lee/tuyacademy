@@ -19,6 +19,7 @@
     background-color: rgba(42, 69, 165, 0.367);
 }
 
+/*
 img {
     max-width: 250px;
     max-height: 300px;
@@ -26,6 +27,11 @@ img {
     align-self: center;
     border-radius: 10px;
     border: 2px solid lightgray;
+}
+*/
+
+.schedule-image {
+    height: 20vw;
 }
 
 .schedule ul {
