@@ -17,11 +17,16 @@
 }
 
 .navbar {
-    background-color: rgb(221, 255, 254);
-    color:rgb(4, 53, 53);
+    background-color: rgb(244, 246, 208);
     display: flex;
     justify-content: space-around;
     align-items: center;
+    font-size: 1vw;
+}
+
+.navbar a {
+    text-decoration: none;
+    color:rgb(4, 53, 53);
 }
 
 .nav-list, .nav-list a {
@@ -29,8 +34,25 @@
     text-decoration: none;
 }
 
-.nav-list {
-    display: flex;
+.nav-list .list-item{
+    display: inline-block;
+    padding: 20px;
+}
+
+.navbar-logo {
+    max-height: 65px;
+}
+
+@media all and (max-width: 915px) {
+
+    .navbar {
+        background-color: rgb(244, 246, 208);
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        font-size: 2vw;
+    }
+
 }
 
 /*
