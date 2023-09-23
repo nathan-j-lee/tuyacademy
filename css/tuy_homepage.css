@@ -85,6 +85,18 @@ ul.service-list {
     align-items: center;
     justify-content: center;
 }
+@media all and (max-width: 750px) {
+    .social-media-section {
+        font-size: 1.3vw;
+        height: 200px;
+    }
+}
+@media all and (max-width: 600px) {
+    .social-media-section {
+        font-size: 1.9vw;
+        height: 100px;
+    }
+}
 
 .social-media-logo {
     max-width: 3.0vw;

@@ -46,11 +46,11 @@
 }
 
 .navbar-logo {
-    height: 3vw;
+    height: 7vw;
 }
-@media all and (max-width: 100px) {
+@media all and (max-width: 500px) {
     .navbar-logo {
-        height: 5vw;
+        height: 10vw;
     }
 }
 
