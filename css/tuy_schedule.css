@@ -34,6 +34,12 @@ img {
     height: 20vw;
 }
 
+@media all and (max-width: 500px) {
+    .schedule-image {
+        display: none;
+    }
+}
+
 .schedule ul {
     font-size: 24px;
     font-size: 1.2vw;
@@ -53,4 +59,10 @@ img {
 .schedule-title {
     font-size: 36px;
     font-size: 1.7vw;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
 }
