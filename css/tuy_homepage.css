@@ -47,14 +47,13 @@ body {
 
 .summary.paragraph {
     text-align: left;
-    font-size: 1.5vw;
+    font-size: 0.6rem;
     color: rgb(255, 255, 255);
+    margin: 5px;
 }
-
-@media all and (max-width: 915px) {
-    .summary.paragraph {
-        font-size: 1.3vw;
-    }
+.title#header {
+    font-size: 1rem;
+    margin: 5px;
 }
 
 .services.container {
@@ -107,7 +106,7 @@ ul.service-list {
 
 
 .social-media.title {
-    font-size: 1.7vw;
+    font-size: 1.0rem;
     text-align: center;
     margin: 10px 25px;
     color: rgb(4, 0, 255);
@@ -119,53 +118,48 @@ ul.service-list {
 }
 
 #facebook,
-#instagram {
+#instagram,
+#facebook a,
+#instagram a {
     display: flex;
     align-items: center;
     margin: 0 10px;
+    font-size: 0.8rem;
 }
 
 /**
  * Contact information
  */
-
 .footer {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     padding: 100px;
 }
 @media all and (max-width: 425px) {
     .footer {
-        padding: 0px;
+        padding: 10px;
     }
 }
 
 .footer-container {
     display: flex;
-    justify-content: space-around;
-    background-color: rgba(0, 0, 0, 0.59);
-    width: 700px;
-    height: 100px;
-    align-items: center;
-    border-radius: 10px;
+    justify-content: space-between;
 }
-
-#phone-container h3 {
+#phone-number {
     color: rgb(255, 255, 178);
-    font-size: min(1.5vw, 20px);
-    padding: 2px 0;
+    font-size: 0.8rem;
 }
-#email-container h3 {
-    color: rgb(255, 255, 178);
-    font-size: min(1.5vw, 20px);
-    padding: 2px 0;
-}
-
-.phone-number#phone-label, .email-address#email-label {
-    font-size: calc(16px + 1vw);
-}
-
-.email-address#email-label a{
+#phone-label {
     text-decoration: underline;
     color: rgb(255, 255, 178);
+}
+
+#email-label {
+    color: rgb(255, 255, 178);
+    text-decoration: underline;
+}
+#email-address {
+    color: rgb(255, 255, 178);
+    font-size: 0.8rem;
+    font-weight: bold;
 }
