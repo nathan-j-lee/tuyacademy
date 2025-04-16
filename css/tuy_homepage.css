@@ -1,0 +1,5 @@
+@media (max-width: 576px) {
+    .contact-social-section {
+      padding-top: 2rem !important; /* reduces the space above the section on small screens */
+    }
+  }
