@@ -7,81 +7,108 @@
     <title>TUY Academy</title>
     <link rel="stylesheet" type="text/css" href="css/tuy_global.css">
     <link rel="stylesheet" type="text/css" href="css/tuy_schedule.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+      .schedule-section .list-group-item {
+        font-size: 1.15rem;
+      }
+      .schedule-section h2, .schedule-section h3 {
+        font-size: 1.5rem;
+      }
+    </style>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 
-<body>
-    <!-- navigation bar -->
-    <nav class="navbar">
-        <div>
-            <img class="navbar-logo" src="./media/images/TUY_logo.jpg"/>
-        </div>
-        <ul class="nav-list">
-            <li class="list-item">
-                <a href="index.html">Home</a>
-            </li>
-            <li class="list-item">
-                <a href="about-us.html">About Us</a>
-            </li>
-            <li class="list-item">
-                <a href="schedule.html">Schedule</a>
-            </li>
-            <li class="list-item">
-                <a href="gallery.html">Gallery</a>
-            </li>
+<body style="background-color: #fffaf0; padding-top: 80px;">
+   <!-- navigation bar -->
+   <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: #d9480f;">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+            <img src="./media/images/TUY_logo.jpg" alt="TUY Academy Logo" width="60" height="60" class="d-inline-block align-text-top">
+          </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link ms-auto" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about-us.html">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="schedule.html">Programs</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="gallery.html">Gallery</a>
+          </li>
         </ul>
+      </div>
+    </div>
     </nav>
 
-
-    <div id="after-school-container">
-        <!-- page banner for after school -->
-
-        <h1 class="container-title">After School Daily Schedule</h1>
-        <div class="schedule">
-            <h2 class="schedule-title">Kindergarten</h2>
-            <ul>
-                <li>1:50pm - 2:00pm Pick Up</li>
-                <li>2:15pm - 3:00pm Free Time</li>
-                <li>3:30pm - 4:45pm Homework & TUY Packets (Reading, Math, Writing)</li>
-                <li>4:45pm - 5:15pm Break Time - Playground</li>
-                <li>5:15pm - 6:00pm Journal, Activities, Stories</li>
-                <li>6:00pm - 6:30pm Free Time</li>
+    <section class="schedule-section py-5">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-6">
+            <h2 class="text-center mb-4">TUY Afterschool Program</h2>
+            <h3>TK - 8th Grade</h3>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">1:50pm - 3:30pm Pick up from school</li>
+              <li class="list-group-item">3:30pm - 4:45pm Homework and TUY Packet</li>
+              <li class="list-group-item">4:45pm - 5:10pm Playground</li>
+              <li class="list-group-item">5:10pm - 6:30pm Reading and Go Home</li>
             </ul>
-            <h2 class="schedule-title">1st - 8th Graders</h2>
-            <ul>
-                <li>3:00pm - 3:30pm Pick Up</li>
-                <li>3:40pm - 5:00pm Homework, TUY Packet, Journal</li>
-                <li>5:00pm - 5:15pm Break Time</li>
-                <li>5:15pm - 6:00pm Reading, Writing, Math</li>
-                <li>6:00pm - 6:30pm Free Time</li>
-            </ul>
+          </div>
+          <div class="col-md-6 text-center">
+            <img src="img/tuy_classtime_candid-2.jpg" alt="TUY Afterschool Program" class="img-fluid rounded" style="max-height: 300px; object-fit: contain;">
+          </div>
         </div>
-        <img class="schedule-image" src="./img/tuy-classtime-candid-3.png" alt="Photo of teacher and kids in classroom. Credit to TUY Academy">
-    </div>
+      </div>
+    </section>
 
-
-    <div id="summer-school-container">
-        <!-- page banner for summer school -->
-        <img class="schedule-image" src="./img/tuy-activities-tug_of_war.png"
-            alt="Photo of group of kids playing tug of war. Credit to TUY Academy">
-
-        <div class="schedule">
-            <h2 class="schedule-title">Kdg-8 Schedule</h2>
-            <ul>
-                <li>8:00am Open</li>
-                <li>9:30am - 12:15pm Classes (Reading, Writing, Math)</li>
-                <li>12:15pm - 1:00pm Lunch (Provided)</li>
-                <li>1:00pm - 2:00pm Journal & Reading</li>
-                <li>2:00pm - 4:00pm Activities, Playground</li>
-                <li>4:00pm - 5:00pm Reading</li>
-                <li>5:00pm - 6:00pm Closing</li>
+    <section class="schedule-section py-5">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-6">
+            <h2 class="text-center mb-4">TUY Summer School Program</h2>
+            <ul class="list-group list-group-flush mb-4">
+              <li class="list-group-item">8:00am - 6:30pm</li>
+              <li class="list-group-item">Academic classes (Reading, Writing, Math)</li>
+              <li class="list-group-item">Sports & Activities</li>
+              <li class="list-group-item">Lunch Provided</li>
             </ul>
 
+            <h3>Field Trips</h3>
+            <ul class="list-group list-group-flush mb-4">
+              <li class="list-group-item">Ice Skating</li>
+              <li class="list-group-item">Raging Waters</li>
+            </ul>
+
+            <h3>Activities</h3>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Sports</li>
+              <li class="list-group-item">Carnivals</li>
+              <li class="list-group-item">Treasure Hunts</li>
+              <li class="list-group-item">Arts and Crafts</li>
+              <li class="list-group-item">Cooking and Baking</li>
+              <li class="list-group-item">Water Day</li>
+            </ul>
+          </div>
+          <div class="col-md-6 text-center">
+            <img src="img/tuy-activities-tug_of_war.png" alt="TUY Summer School Program" class="img-fluid rounded" style="max-height: 300px; object-fit: contain;">
+          </div>
         </div>
+      </div>
+    </section>
 
-        <!-- TODO: Update schedules using large time table rather than bulleted list -->
-
-        <h1 class="container-title">Summer School Daily Schedule</h1>
-    </div>
 </body>
 
 </html>

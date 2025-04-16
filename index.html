@@ -7,87 +7,87 @@
     <title>TUY Academy</title>
     <link rel="stylesheet" type="text/css" href="css/tuy_global.css">
     <link rel="stylesheet" type="text/css" href="css/tuy_homepage.css">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 
-<body>
+<body style="background-color: #fffaf0; padding-top: 80px;">
 
     <!-- navigation bar -->
-    <nav class="navbar">
-        <div>
-            <img class="navbar-logo" src="./media/images/TUY_logo.jpg" />
-        </div>
-        <ul class="nav-list">
-            <li class="list-item">
-                <a href="index.html">Home</a>
-            </li>
-            <li class="list-item">
-                <a href="about-us.html">About Us</a>
-            </li>
-            <li class="list-item">
-                <a href="schedule.html">Schedule</a>
-            </li>
-            <li class="list-item">
-                <a href="gallery.html">Gallery</a>
-            </li>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: #d9480f;">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+            <img src="./media/images/TUY_logo.jpg" alt="TUY Academy Logo" width="60" height="60" class="d-inline-block align-text-top">
+          </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about-us.html">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="schedule.html">Programs</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="gallery.html">Gallery</a>
+          </li>
         </ul>
+      </div>
+    </div>
     </nav>
 
-
-    <div class="banner-section">
-        <div class="banner container">
-            <div class="title container">
-                <h1 class="title" id="header">TUY Academy</h1>
-                <div class="summary container">
-                    <p class="summary paragraph">
-                        TUY was established in 1994, offering services from school pickups to after-school tutoring to
-                        help students with their homework, reading, writing, and math enrichment in a small-group
-                        setting. Our qualified and caring tutors are dedicated to give students the time and attention
-                        needed to nurture their unique style and accomplish their learning goals.
-                    </p>
-                </div>
+    <!-- welcome section -->
+    <section class="welcome-section py-5">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-md-6 mb-4 mb-md-0">
+              <img src="img/tuy-freetime-benchphoto.png" alt="Students at TUY Academy" class="img-fluid rounded">
             </div>
-            <img src="./img/tuy-freetime-benchphoto.png"
-                alt="Photo of three kids smiling on a bench. Credit to TUY Academy" class="banner-image">
-        </div>
-    </div>
-
-
-
-    <!-- Social media information -->
-    <div class="social-media-section">
-        <div class="social-media-container">
-            <h2 class="social-media title">Follow us!</h2>
-            <div id="social-media-links">
-                <div id="instagram">
-                    <img src="./img/social-media-logos/instagram-logo.png" class="social-media-logo">
-                    <a href="https://www.instagram.com/tuy_academy/?hl=en">@tuy_academy</a>
-                </div>
-
-                <div id="facebook">
-                    <img src="./img/social-media-logos/facebook-logo.png" class="social-media-logo">
-                    <a href="https://www.facebook.com/people/TUY-Academy/100064850191571/">TUY Academy</a>
-                </div>
+            <div class="col-md-6">
+              <h1 class="display-4">TUY Academy</h1>
+              <p class="lead">
+                TUY was established in 1994, offering services from school pickups to after-school tutoring to help students with their homework, reading, writing, and math enrichment in a small-group setting. Our qualified and caring tutors are dedicated to give students the time and attention needed to nurture their unique style and accomplish their learning goals.
+              </p>
             </div>
+          </div>
         </div>
-    </div>
-
-    <!-- Contact information for mom -->
-    <!-- TODO: Remove hardcoded padding and margin (or at least make it responsive)-->
-    <!-- TODO: Make fonts bigger. Can already tell it's too small on mobile devices -->
-    <!-- TODO: Make navi bar logo bigger. Can already tell it's too small on mobile devices -->
-    <div class="footer">
-        <div id="phone-container">
-            <h3 id="phone-label">Call or Text</h3>
-            <h3 id="phone-number">310-465-9225</h3>
+      </section>
+      
+      <!-- contact and social info -->
+      <section class="contact-social-section py-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 text-center">
+              <h2>Contact</h2>
+              <p>Call or text at <a href="tel:3104659225">310-465-9225</a></p>
+              <p>Or email at <a href="mailto:tuyacademy1@gmail.com">tuyacademy1@gmail.com</a></p>
+            </div>
+            <div class="col-md-6 text-center">
+              <h2>Follow Us</h2>
+              <p>Instagram: <a href="https://www.instagram.com/tuy_academy/" target="_blank">
+                  <img src="img/social-media-logos/instagram-logo.png" alt="Instagram Logo" width="30" height="30">
+              </a></p>
+              <p>Facebook: <a href="https://www.facebook.com/people/TUY-Academy/100064850191571/" target="_blank">
+                  <img src="img/social-media-logos/facebook-logo.png" alt="Facebook Logo" width="30" height="30">
+              </a></p>
+            </div>
+          </div>
         </div>
+      </section>
 
-        <div id="email-container">
-            <h3 id="email-label">Email</h3>
-            <a href="mailto:tuyacademy1@gmail.com" id="email-address">tuyacademy1@gmail.com</a>
-        </div>
-
-    </div>
 </body>
-
+    
 
 </html>
