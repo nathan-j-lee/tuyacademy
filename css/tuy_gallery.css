@@ -1,22 +1,6 @@
-.image-gallery img{
-    height: 20vw;
-    border: 2px solid lightgray;
-    border-radius: 12px;
+.schedule-section .list-group-item {
+  font-size: 1.15rem;
 }
-
-.image-gallery {
-    display: flex;
-    justify-content: center;
-}
-
-.gallery-container {
-    background-color: bisque;
-    padding: 100px;
-}
-
-@media all and (max-width: 200px) {
-    .gallery-container {
-        background-color: bisque;
-        padding: 0px;
-    }
+.schedule-section h2, .schedule-section h3 {
+  font-size: 1.5rem;
 }
